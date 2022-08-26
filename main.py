@@ -110,6 +110,7 @@ def startCloudAudit():
     print("Selected Service Instance: " + selectedServiceInstance)
     keyFilePath = getKeyFilePath()
     print("Key File Path" + keyFilePath)
+    doAudit(selectedServiceInstance)
 
 
 def start():
